@@ -15,7 +15,7 @@ categories = ["rust-patterns"]
 name = "try_tup_to_arr"
 
 [dependencies]
-try_from_int_str = { version = "0.3.0", git = "https://github.com/pic16f877ccs/try_from_int_str" }
+try_from_int_str = { version = "0.4.0", git = "https://github.com/pic16f877ccs/try_from_int_str" }
 try_tup_to_arr_macro = { version = "0.1.0", path = "/home/sandumars/Projects/RustLang/Crates/try_tup_to_arr_macro" }
 
 [features]
