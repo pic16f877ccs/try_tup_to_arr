@@ -7,9 +7,9 @@ readme = "README.md"
 repository = "https://github.com/pic16f877ccs/try_tup_to_arr"
 homepage = "https://github.com/pic16f877ccs/try_tup_to_arr"
 license = "GPL-3.0-or-later"
-description = "Library for implement from tuple trait"
+description = "Library for implement tuple to array trait"
 keywords = ["no-std", "try-tuple-convert", "tuple-to-array"]
-categories = ["rust-patterns"]
+categories = ["rust-patterns","no-std"]
 
 [lib]
 name = "try_tup_to_arr"

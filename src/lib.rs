@@ -18,7 +18,6 @@
 //!assert!(TryTupToArr::<i16>::try_into_arr(("6032023", 2023u16, true,)).is_err());
 //! ```
 #[doc = include_str!("../README.md")]
-
 use core::fmt;
 use core::fmt::Display;
 use try_from_int_str::{IntStrError, TryFromIntStr, TryFromIntStrErr};
