@@ -1,4 +1,4 @@
-# try_tup_to_arr
+## Try tuple to array
 Rust library for converting tuple to array.
 
 ## Description
