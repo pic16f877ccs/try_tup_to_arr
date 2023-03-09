@@ -35,10 +35,10 @@ impl Display for TryTupToArrErr {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         match &self.source.multi_err() {
             IntStrError::ErrorStr(parse_int_error) => {
-                write!(f, "{parse_int_error}")
+                write!(f, "{str_err}, tuple position {pos}", str_err = parse_int_error, pos =  self.posice)
             }
             IntStrError::ErrorInt(try_from_int_error) => {
-                write!(f, "{try_from_int_error}")
+                write!(f, "{int_err}, tuple position {pos}", int_err = try_from_int_error, pos = self.posice)
             }
         }
     }
