@@ -16,8 +16,9 @@ cargo add try_tup_to_arr --git "https://github.com/pic16f877ccs/try_tup_to_arr"
 #### Examples
 Usage:
 
-```
-# use try_tup_to_arr::TryTupToArr;
+```rust
+use try_tup_to_arr::TryTupToArr;
+
 assert_eq!(TryTupToArr::<i32>::try_into_arr((45u8, 2023u16, -60i8,)),
 Ok([45i32, 2023i32, -60i32]));
 assert_eq!(TryTupToArr::<i16>::try_into_arr(("45", 2023u16, true,)),
